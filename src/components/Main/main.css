@@ -1,0 +1,85 @@
+.movies-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding-inline-start: 0px;
+}
+
+.movie-container{
+    width: 220px;
+    height: calc(220 * 1.7);
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s ease;
+    border-radius: 10px;
+}
+
+.movie-container p{
+    font-weight: bold;
+    text-align: center;  
+}
+
+.movie-poster{
+    width: 220px;
+    height: calc(220px * 1.5);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.movie-container:hover{
+    opacity: 1;
+    transition: 0.2s ease;
+    box-shadow: 0 0 5px 1px #fff; 
+}
+
+input[type="radio"]{
+    display:none;
+}
+
+.star-label{
+    margin-bottom: 0;
+    padding: 4px 10px 0px;
+}
+
+.star{
+    cursor: pointer;
+    transition: 2s ease;  
+}
+
+.star-group{
+    border-radius: 5px;   
+    background: #FFF; 
+}
+
+.search-bar{
+    border-radius: 5px;
+    border: 2px #fff solid;
+    padding: 20px;
+}
+
+#search-message{
+    margin: 50px 0;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px #fff solid;
+}
+
+.modal-content{
+    box-shadow: 0 0 30px 2px #FFF;
+}
+
+.modal-body{
+    background: -webkit-linear-gradient(to top, #434343, #000000); 
+    background: linear-gradient(to top, #434343, #000000);
+}
+
+
+
+
+
+

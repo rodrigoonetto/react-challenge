@@ -1,0 +1,60 @@
+header{
+    background: url(../../assets/img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    
+}
+
+header h1{
+    
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+header p{
+    color: #fff;
+    padding-left: 50px;
+    margin-top: -50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+@media (max-width: 600px) {
+    
+    
+    header h1{
+    
+        padding: 120px 0 0 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        
+    }
+    header p{
+        color: #fff;
+        padding-left: 10px;
+        margin-top: -10px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+  }
